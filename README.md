@@ -18,7 +18,7 @@ class Suits:
     Databases I have worked on: tuple[str, ...] = ("MySQL", "PostgreSQL","Amazon Redshift")
     Libraries I have tried: tuple[str, ...] = ("Pandas, Numpy", "PyTorch", "OpenCV")
     Ongoing Learning: tuple[str, ...] = ("Django", "Deep Learning", "Cognitive Analytics")
-    Things I have strong interests: tuple[str, ...] = ("Data Science", "AI", "FinTech", "Consulting", "Space Tech.")
+    Things I want to dive deep: tuple[str, ...] = ("AI", "Quant", "FinTech", "Consulting", "Space Tech.")
 
     def jsonify(self) -> str:
         return json.dumps(asdict(self), indent=4)
